@@ -1,4 +1,4 @@
-package com.example.kimyounghoon.designpattern.interfaces;
+package com.example.kimyounghoon.designpattern.factories;
 
 import com.example.kimyounghoon.designpattern.material.Cheese;
 import com.example.kimyounghoon.designpattern.material.Clams;

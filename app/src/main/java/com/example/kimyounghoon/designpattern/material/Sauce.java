@@ -1,4 +1,4 @@
 package com.example.kimyounghoon.designpattern.material;
 
-public class Sauce {
+public interface Sauce {
 }

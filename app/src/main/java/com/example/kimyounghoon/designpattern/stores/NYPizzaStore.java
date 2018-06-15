@@ -1,7 +1,7 @@
 package com.example.kimyounghoon.designpattern.stores;
 
 import com.example.kimyounghoon.designpattern.factories.NYPizzaIngredientFactory;
-import com.example.kimyounghoon.designpattern.interfaces.PizzaIngredientFactory;
+import com.example.kimyounghoon.designpattern.factories.PizzaIngredientFactory;
 import com.example.kimyounghoon.designpattern.pizza.CheesePizza;
 import com.example.kimyounghoon.designpattern.pizza.ClamPizza;
 import com.example.kimyounghoon.designpattern.pizza.PepperoniPizza;

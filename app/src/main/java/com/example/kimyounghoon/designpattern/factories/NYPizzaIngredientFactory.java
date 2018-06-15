@@ -15,7 +15,6 @@ import com.example.kimyounghoon.designpattern.material.newyork.MarinaraSauce;
 import com.example.kimyounghoon.designpattern.material.newyork.ReggianoCheese;
 import com.example.kimyounghoon.designpattern.material.newyork.SlicedPepperoni;
 import com.example.kimyounghoon.designpattern.material.newyork.ThinCrustDough;
-import com.example.kimyounghoon.designpattern.interfaces.PizzaIngredientFactory;
 
 public class NYPizzaIngredientFactory implements PizzaIngredientFactory {
     @Override

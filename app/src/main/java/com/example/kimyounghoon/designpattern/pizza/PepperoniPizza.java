@@ -1,6 +1,6 @@
 package com.example.kimyounghoon.designpattern.pizza;
 
-import com.example.kimyounghoon.designpattern.interfaces.PizzaIngredientFactory;
+import com.example.kimyounghoon.designpattern.factories.PizzaIngredientFactory;
 
 public class PepperoniPizza extends Pizza {
     PizzaIngredientFactory ingredientFactory;
