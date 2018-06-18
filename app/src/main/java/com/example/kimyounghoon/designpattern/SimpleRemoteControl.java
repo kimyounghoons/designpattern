@@ -1,15 +1,15 @@
 package com.example.kimyounghoon.designpattern;
 
 public class SimpleRemoteControl {
-    Command slot;
+    Command command;
 
     public SimpleRemoteControl(){}
 
     public void setCommand(Command command){
-        slot = command;
+        this.command = command;
     }
 
     public void buttonWasPressed(){
-        slot.execute();
+        command.execute();
     }
 }
