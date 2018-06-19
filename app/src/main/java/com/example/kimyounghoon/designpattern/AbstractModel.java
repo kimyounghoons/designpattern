@@ -1,13 +1,13 @@
 package com.example.kimyounghoon.designpattern;
 
 public class AbstractModel {
-    String title;
+    String location;
 
-    public AbstractModel(String title) {
-        this.title = title;
+    public AbstractModel(String location) {
+        this.location = location;
     }
 
     protected void println(String content) {
-        System.out.println(title+ " " + content);
+        System.out.println(location+ " " + content);
     }
 }
