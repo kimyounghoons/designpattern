@@ -1,6 +1,9 @@
-package com.example.kimyounghoon.designpattern;
+package com.example.kimyounghoon.designpattern.commands;
 
-class CeilingFanOffCommand implements Command {
+import com.example.kimyounghoon.designpattern.interfaces.Command;
+import com.example.kimyounghoon.designpattern.models.CeilingFan;
+
+public class CeilingFanOffCommand implements Command {
     CeilingFan ceilingFan;
 
     public CeilingFanOffCommand(CeilingFan ceilingFan) {

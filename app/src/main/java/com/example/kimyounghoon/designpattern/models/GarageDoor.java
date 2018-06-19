@@ -1,6 +1,8 @@
-package com.example.kimyounghoon.designpattern;
+package com.example.kimyounghoon.designpattern.models;
 
-public class GarageDoor extends AbstractModel implements GarageDoorListener{
+import com.example.kimyounghoon.designpattern.interfaces.GarageDoorListener;
+
+public class GarageDoor extends AbstractModel implements GarageDoorListener {
 
     public GarageDoor(String title) {
         super(title);

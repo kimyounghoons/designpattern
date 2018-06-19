@@ -1,6 +1,8 @@
-package com.example.kimyounghoon.designpattern;
+package com.example.kimyounghoon.designpattern.models;
 
-class Light extends AbstractModel implements OnoffListener {
+import com.example.kimyounghoon.designpattern.interfaces.OnoffListener;
+
+public class Light extends AbstractModel implements OnoffListener {
 
 
     public Light(String title) {

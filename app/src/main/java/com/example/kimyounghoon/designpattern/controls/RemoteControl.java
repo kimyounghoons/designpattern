@@ -1,11 +1,14 @@
-package com.example.kimyounghoon.designpattern;
+package com.example.kimyounghoon.designpattern.controls;
 
-public class UpgradeRemoteControl {
+import com.example.kimyounghoon.designpattern.interfaces.Command;
+import com.example.kimyounghoon.designpattern.commands.NoCommand;
+
+public class RemoteControl {
     Command[] onCommands;
     Command[] offCommands;
     Command undoCommand;
 
-    public UpgradeRemoteControl() {
+    public RemoteControl() {
         onCommands = new Command[7];
         offCommands = new Command[7];
 

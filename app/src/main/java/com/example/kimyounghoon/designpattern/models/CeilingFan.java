@@ -1,7 +1,8 @@
-package com.example.kimyounghoon.designpattern;
+package com.example.kimyounghoon.designpattern.models;
 
-class CeilingFan extends AbstractModel implements OnoffListener
-{
+import com.example.kimyounghoon.designpattern.interfaces.OnoffListener;
+
+public class CeilingFan extends AbstractModel implements OnoffListener {
 
     public CeilingFan(String title) {
         super(title);

@@ -1,4 +1,6 @@
-package com.example.kimyounghoon.designpattern;
+package com.example.kimyounghoon.designpattern.models;
+
+import com.example.kimyounghoon.designpattern.interfaces.StereoListener;
 
 public class Stereo extends AbstractModel implements StereoListener {
 

@@ -1,17 +1,20 @@
-package com.example.kimyounghoon.designpattern;
+package com.example.kimyounghoon.designpattern.commands;
 
-public class UpgradeCeilingFanHighCommand implements Command {
+import com.example.kimyounghoon.designpattern.interfaces.Command;
+import com.example.kimyounghoon.designpattern.models.UpgradeCeilingFan;
+
+public class UpgradeCeilingFanOffCommand implements Command {
     UpgradeCeilingFan upgradeCeilingFan;
     int prevSpeed;
 
-    public UpgradeCeilingFanHighCommand(UpgradeCeilingFan upgradeCeilingFan) {
+    public UpgradeCeilingFanOffCommand(UpgradeCeilingFan upgradeCeilingFan) {
         this.upgradeCeilingFan = upgradeCeilingFan;
     }
 
     @Override
     public void execute() {
         prevSpeed = upgradeCeilingFan.getSpeed();
-        upgradeCeilingFan.high();
+        upgradeCeilingFan.off();
     }
 
     @Override
@@ -26,4 +29,5 @@ public class UpgradeCeilingFanHighCommand implements Command {
             upgradeCeilingFan.off();
         }
     }
+
 }

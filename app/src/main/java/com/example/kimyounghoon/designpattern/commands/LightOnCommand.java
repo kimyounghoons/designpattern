@@ -1,4 +1,7 @@
-package com.example.kimyounghoon.designpattern;
+package com.example.kimyounghoon.designpattern.commands;
+
+import com.example.kimyounghoon.designpattern.interfaces.Command;
+import com.example.kimyounghoon.designpattern.models.Light;
 
 public class LightOnCommand implements Command {
     Light light;

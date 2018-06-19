@@ -1,4 +1,6 @@
-package com.example.kimyounghoon.designpattern;
+package com.example.kimyounghoon.designpattern.interfaces;
+
+import com.example.kimyounghoon.designpattern.interfaces.OnoffListener;
 
 public interface StereoListener extends OnoffListener {
     void setCd();

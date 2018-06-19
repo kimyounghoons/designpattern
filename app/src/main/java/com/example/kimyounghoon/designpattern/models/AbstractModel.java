@@ -1,4 +1,4 @@
-package com.example.kimyounghoon.designpattern;
+package com.example.kimyounghoon.designpattern.models;
 
 public class AbstractModel {
     String location;

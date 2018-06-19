@@ -1,4 +1,6 @@
-package com.example.kimyounghoon.designpattern;
+package com.example.kimyounghoon.designpattern.controls;
+
+import com.example.kimyounghoon.designpattern.interfaces.Command;
 
 public class SimpleRemoteControl {
     Command command;

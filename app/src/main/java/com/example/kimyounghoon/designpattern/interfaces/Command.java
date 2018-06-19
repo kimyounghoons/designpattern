@@ -1,4 +1,4 @@
-package com.example.kimyounghoon.designpattern;
+package com.example.kimyounghoon.designpattern.interfaces;
 
 public interface Command {
     void execute();

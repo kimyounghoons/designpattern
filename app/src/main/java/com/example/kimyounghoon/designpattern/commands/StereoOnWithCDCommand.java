@@ -1,6 +1,9 @@
-package com.example.kimyounghoon.designpattern;
+package com.example.kimyounghoon.designpattern.commands;
 
-public class StereoOnWithCDCommand implements Command{
+import com.example.kimyounghoon.designpattern.interfaces.Command;
+import com.example.kimyounghoon.designpattern.models.Stereo;
+
+public class StereoOnWithCDCommand implements Command {
     Stereo stereo;
 
     public StereoOnWithCDCommand(Stereo stereo){
