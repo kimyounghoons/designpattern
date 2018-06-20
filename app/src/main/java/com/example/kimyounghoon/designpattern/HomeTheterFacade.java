@@ -17,6 +17,7 @@ public class HomeTheterFacade {
         this.cd = cd;
         this.projector = projector;
         this.lights = lights;
+        this.screen = screen;
         this.popper = popper;
     }
 
