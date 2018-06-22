@@ -13,22 +13,27 @@ public class MenuItem extends MenuComponent {
         this.price = price;
     }
 
+    @Override
     public String getName() {
         return name;
     }
 
+    @Override
     public String getDescription() {
         return description;
     }
 
+    @Override
     public boolean isVegetarian() {
         return vegetarian;
     }
 
+    @Override
     public double getPrice() {
         return price;
     }
 
+    @Override
     public void print() {
         System.out.println();
         System.out.print("   " + getName());
