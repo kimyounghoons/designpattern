@@ -1,5 +1,5 @@
 package com.example.kimyounghoon.designpattern;
 
-public interface Quackable {
+public interface Quackable extends QuackObservable {
     void quack();
 }
